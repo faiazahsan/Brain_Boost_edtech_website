@@ -1,0 +1,85 @@
+
+.black_tint{
+    filter: brightness(50%);
+}
+
+.carousel-caption{
+    text-align: center;
+}
+
+.slide_heading{
+    font-size: 10vh;
+}
+
+.slide_heading_caption{
+    font-size: 3vh;
+    padding-top: 10px;
+}
+
+
+/* Media Queries */
+
+/* Extra Small Devices */
+@media only screen and (min-width:0px) and (max-width: 576px){
+
+    
+    .slide_heading{
+        font-size: 10px;
+    }
+
+    .slide_heading_caption{
+        font-size: 5px;
+        padding-top: 3px;
+    }
+    
+}
+
+
+/* Small Devices */
+@media only screen and (min-width:577px) and (max-width: 768px){
+
+    .slide_heading{
+        font-size: 15px;
+    }
+
+    .slide_heading_caption{
+        font-size: 5px;
+        padding-top: 5px;
+    }
+    
+}
+
+
+
+/* Medium Devices */
+@media only screen and (min-width: 769px) and (max-width: 992px){
+
+    
+    .slide_heading{
+        font-size: 30px;
+    }
+
+    .slide_heading_caption{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+}
+
+
+
+/* Large Devices */
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    
+    .slide_heading{
+        font-size: 50px;
+    }
+
+    .slide_heading_caption{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+}
+
+
+
