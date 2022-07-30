@@ -20,6 +20,7 @@
     color: blue;
 }
 
+
 /* Media Queries */
 
 /* Extra Small Devices */
@@ -63,11 +64,6 @@
         padding-top: 5px;
     }
 
-    
-    .none{
-        display: none;
-    }
-    
 } 
 
 
@@ -90,9 +86,6 @@
     }
     
     
-    .none{
-        display: none;
-    }
 }
 
 
