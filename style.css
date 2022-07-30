@@ -43,6 +43,10 @@
         /* line-height: 1.5; */
         border-radius: 1em;
     }
+
+    .none{
+        display: none;
+    }
     
 } 
 
@@ -57,6 +61,11 @@
     .slide_heading_caption{
         font-size: 1em;
         padding-top: 5px;
+    }
+
+    
+    .none{
+        display: none;
     }
     
 } 
@@ -80,6 +89,10 @@
         display: flex;
     }
     
+    
+    .none{
+        display: none;
+    }
 }
 
 
