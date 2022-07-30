@@ -13,41 +13,49 @@
 
 .slide_heading_caption{
     font-size: 3vh;
-    padding-top: 10px;
 }
 
 
 /* Media Queries */
 
 /* Extra Small Devices */
-@media only screen and (min-width:0px) and (max-width: 576px){
-
-    
+ @media only screen and (min-width:0px) and (max-width: 576px){
+ 
     .slide_heading{
-        font-size: 10px;
+        font-size: 0.75em;
+        text-overflow: ellipsis;
+        padding-top: 2em;
     }
 
     .slide_heading_caption{
-        font-size: 5px;
-        padding-top: 3px;
+        font-size: 0.5em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      
+    }
+
+    .btn.btn-my{
+        font-size: 0.5em;
+        /* line-height: 1.5; */
+        border-radius: 1em;
     }
     
-}
+} 
 
 
 /* Small Devices */
-@media only screen and (min-width:577px) and (max-width: 768px){
+ @media only screen and (min-width:577px) and (max-width: 768px){
 
     .slide_heading{
-        font-size: 15px;
+        font-size: 2em;
     }
 
     .slide_heading_caption{
-        font-size: 5px;
+        font-size: 1em;
         padding-top: 5px;
     }
     
-}
+} 
 
 
 
@@ -56,11 +64,11 @@
 
     
     .slide_heading{
-        font-size: 30px;
+        font-size: 2em;
     }
 
     .slide_heading_caption{
-        font-size: 15px;
+        font-size: 1em;
         padding-top: 10px;
     }
     
@@ -69,7 +77,7 @@
 
 
 /* Large Devices */
-@media only screen and (min-width: 993px) and (max-width: 1200px){
+ @media only screen and (min-width: 993px) and (max-width: 1200px){
     
     .slide_heading{
         font-size: 50px;
