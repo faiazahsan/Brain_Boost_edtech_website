@@ -16,6 +16,10 @@
 }
 
 
+.blue-color{
+    color: blue;
+}
+
 /* Media Queries */
 
 /* Extra Small Devices */
@@ -71,6 +75,10 @@
         font-size: 1em;
         padding-top: 10px;
     }
+
+    .card-flex{
+        display: flex;
+    }
     
 }
 
@@ -87,6 +95,21 @@
         font-size: 20px;
         padding-top: 10px;
     }
+
+    .card-flex{
+        display: flex;
+    }
+
+}
+
+
+/* Extra large devices */
+@media only screen and (min-width: 1201px){
+    
+.card-flex{
+    display: flex;
+}
+
 }
 
 
